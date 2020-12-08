@@ -1,56 +1,78 @@
-/* colors: #f0f5f9 #c9d6df #52616b #1e2022  */
-
+/* colors: #495464 #bbbfca #e8e8e8 #f4f4f2 #8B575C */
+/******************* ELEMENTS*******************/
 body{
-  background-color: #f0f5f9;
-  color:#1e2022;
+  background-color: #f4f4f2;
+  color:#495464;
   font-family: "Roboto Condensed", sans-serif;
 }
 h1{
-  color:#1e2022;
   font-family: "Oswald", serif;
 }
+/**************** COLORS ********/
 .bgd-white{
-  background-color: #f0f5f9;
+  background-color: #f4f4f2;
 }
 .bgd-light{
-  background-color: #c9d6df;
+  background-color: #e8e8e8;
+}
+.bgd-accent{
+  background-color: #8B575C;
 }
 .bgd-dark{
-  background-color: #1e2022;
+  background-color: #495464;
 }
-.txt-dark{
-  color:1e2022;
+.txt-white{
+  color: #f4f4f2;
 }
 .txt-light{
-  color:#f0f5f9;
+  color:#e8e8e8;
 }
-.top-div{
-  padding: 15% 1%;
-  background-image: url("../images/background.jpg");
-  background-size: 100% 100%;
+.txt-accent{
+  color: #8B575C;
+}
+.txt-dark{
+  color:black;
+}
+
+/**********************SPECIFIC CLASSES***************/
+.cover-div{
+  padding: 10% 1%;
+  margin: 0 20%;
+  /* background-image: url("../images/background.jpg");
+  background-size: 100% 100%; */
+}
+.pad{
+  padding: 5%;
 }
 .about-div{
-  padding: 14% 7%;
+  padding: 10% 7%;
+  margin: 0 20%;
 }
 .about-me{
   padding-left:15%
 }
 .work-div{
   padding:7% 15%;
+  margin: 0 20%;
 }
 .footnote-div{
   padding-top:20%;
 }
 .Headshot{
-height:100%;
-width:100%;
+height:inherit;
+width:inherit;
 border-radius: 10%;
 }
 .graphic{
-  height: 50%;
-  width: 30%;
+  height: 100%;
+  width: 15%;
   margin-bottom: 1rem;
 }
 .feature-box{
   padding:5%;
+}
+.project-photos{
+  height:100%;
+  width:100%;
+  padding:8%;
 }
