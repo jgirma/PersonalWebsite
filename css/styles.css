@@ -1,0 +1,56 @@
+/* colors: #f0f5f9 #c9d6df #52616b #1e2022  */
+
+body{
+  background-color: #f0f5f9;
+  color:#1e2022;
+  font-family: "Roboto Condensed", sans-serif;
+}
+h1{
+  color:#1e2022;
+  font-family: "Oswald", serif;
+}
+.bgd-white{
+  background-color: #f0f5f9;
+}
+.bgd-light{
+  background-color: #c9d6df;
+}
+.bgd-dark{
+  background-color: #1e2022;
+}
+.txt-dark{
+  color:1e2022;
+}
+.txt-light{
+  color:#f0f5f9;
+}
+.top-div{
+  padding: 15% 1%;
+  background-image: url("../images/background.jpg");
+  background-size: 100% 100%;
+}
+.about-div{
+  padding: 14% 7%;
+}
+.about-me{
+  padding-left:15%
+}
+.work-div{
+  padding:7% 15%;
+}
+.footnote-div{
+  padding-top:20%;
+}
+.Headshot{
+height:100%;
+width:100%;
+border-radius: 10%;
+}
+.graphic{
+  height: 50%;
+  width: 30%;
+  margin-bottom: 1rem;
+}
+.feature-box{
+  padding:5%;
+}
