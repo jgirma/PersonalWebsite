@@ -54,6 +54,10 @@ h1{
 .about-me{
   padding-left:15%
 }
+.languages{
+  font-size:60%;
+  padding: 3%;
+}
 .project-slides{
 }
 .work-div{
@@ -61,7 +65,8 @@ h1{
 }
 .slides{
   padding:7% 15%;
-  margin:auto;
+  height:35rem;
+  width:auto;
 }
 .footnote-div{
   padding-top:20%;
