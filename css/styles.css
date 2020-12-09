@@ -33,8 +33,11 @@ h1{
 .txt-dark{
   color:black;
 }
-
 /**********************SPECIFIC CLASSES***************/
+.jg{
+  height:15%;
+  width:100%;
+}
 .cover-div{
   padding: 10% 1%;
   margin: 0 20%;
@@ -51,9 +54,13 @@ h1{
 .about-me{
   padding-left:15%
 }
+.project-slides{
+}
 .work-div{
-  padding:7% 15%;
   margin: 0 20%;
+}
+.slides{
+  padding:7% 15%
 }
 .footnote-div{
   padding-top:20%;
@@ -64,9 +71,10 @@ width:inherit;
 border-radius: 10%;
 }
 .graphic{
-  height: 100%;
-  width: 15%;
+  height: 75%;
+  width: 30%;
   margin-bottom: 1rem;
+  padding: 5% 0;
 }
 .feature-box{
   padding:5%;
