@@ -1,14 +1,38 @@
 /* colors: #495464 #bbbfca #e8e8e8 #f4f4f2 #8B575C */
 /******************* ELEMENTS*******************/
+html{
+
+}
 body{
   background-color: #f4f4f2;
   color:#495464;
   font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
 }
 h1{
   font-family: "Oswald", serif;
+  font-size: 5rem;
 }
-/**************** COLORS ********/
+
+/*********************** MEDIA CHANGES TO FONT SIZE BASED ON SCREEN****************/
+/* @media only screen and (max-width: 1199px){
+
+}
+
+@media only screen and (max-width: 767px){
+  h1{
+    font-size: 8rem;
+  }
+}
+
+/** Nav Bar shoudln't be viewed here, drop down menu instead * */
+/*@media only screen and (max-width: 400px){
+  h1{
+    font-size: 6rem;
+  }
+}
+
+/**************** COLOR SELECTORS FOR BACKGROUNDS AND FOR TEXT ********/
 .bgd-white{
   background-color: #f4f4f2;
 }
@@ -33,33 +57,39 @@ h1{
 .txt-dark{
   color:black;
 }
-/**********************SPECIFIC CLASSES***************/
-.jg{
-  height:15%;
-  width:100%;
-}
-.cover-div{
-  padding: 10% 1%;
-  margin: 0 20%;
-  /* background-image: url("../images/background.jpg");
-  background-size: 100% 100%; */
-}
+
+/**********************GENERAL CLASSES***************/
 .pad{
   padding: 5%;
 }
+/**********************COVER PAGE CLASSES***************/
+.cover{
+  margin: 0 auto;
+  padding: auto;
+  height:80%;
+  width:100%;
+}
+.gray-box{
+  margin: 10rem auto;
+}
+/**********************ABOUT ME PAGE CLASSES***************/
 .about-div{
   padding: 10% 7%;
-  margin: 0 20%;
+  margin: 0 auto;
 }
 .about-me{
   padding-left:15%
 }
 .languages{
-  font-size:60%;
+  font-size:0.5rem;
   padding: 3%;
 }
-.project-slides{
+.headshot{
+height:inherit;
+width:inherit;
+border-radius: 10%;
 }
+/**********************PORTFOLIO PAGE CLASSES***************/
 .work-div{
   margin: 0 20%;
 }
@@ -68,25 +98,26 @@ h1{
   height:35rem;
   width:auto;
 }
-.footnote-div{
-  padding-top:20%;
-}
-.headshot{
-height:inherit;
-width:inherit;
-border-radius: 10%;
-}
-.graphic{
-  height: 75%;
-  width: 30%;
-  margin-bottom: 1rem;
-  padding: 5% 0;
-}
 .feature-box{
   padding:5%;
 }
 .project-photos{
   height:100%;
   width:100%;
-  padding:8%;
+  padding:3rem;
+}
+/**********************CONTACT ME PAGE CLASSES***************/
+.jg{
+  height:15%;
+  width:100%;
+}
+.graphic{
+  height: 5rem;
+  width: auto;
+  margin-bottom: 1rem;
+  padding: 5% 0;
+}
+/**********************FOOTNOTE CLASSES***************/
+.footnote-div{
+  padding-top:20%;
 }
