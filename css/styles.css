@@ -91,7 +91,8 @@ border-radius: 10%;
 }
 /**********************PORTFOLIO PAGE CLASSES***************/
 .work-div{
-  margin: 0 20%;
+  padding: 10% 7%;
+  margin: 0 auto;
 }
 .slides{
   padding:7% 15%;

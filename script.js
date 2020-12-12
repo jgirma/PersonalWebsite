@@ -1,7 +1,7 @@
 var header = `<header class="site-header py-1">
   <nav class="navbar navbar-expand-lg navbar-light container d-flex flex-column flex-md-row justify-content-between">
     <div class="row">
-    <a class="py-2 txt-dark pr-2" href="../PersonalWebsite/index.html" aria-label="Product">
+    <a class="py-2 txt-dark pr-2 mx-5" href="../PersonalWebsite/index.html" aria-label="Product">
       <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 177.000000 177.000000" preserveAspectRatio="xMidYMid meet">
         <metadata>
           Created by potrace 1.16, written by Peter Selinger 2001-2019
@@ -26,9 +26,9 @@ var header = `<header class="site-header py-1">
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="navbar-nav">
-        <a class="py-2 d-none d-md-inline-block txt-dark nav-item nav-link" id="about" href="../PersonalWebsite/about.html">About Me</a>
-        <a class="py-2 d-none d-md-inline-block txt-dark nav-item nav-link" id="projects" href="../PersonalWebsite/projects.html">Portfolio</a>
-        <a class="py-2 d-none d-md-inline-block txt-dark nav-item nav-link" id="contact" href="../PersonalWebsite/contact.html">Contact Me</a>
+        <a class="py-2 d-inline-block mx-5 txt-dark nav-item nav-link" id="about" href="../PersonalWebsite/about.html">About Me</a>
+        <a class="py-2 d-inline-block mx-5 txt-dark nav-item nav-link" id="projects" href="../PersonalWebsite/projects.html">Portfolio</a>
+        <a class="py-2 d-inline-block mx-5 txt-dark nav-item nav-link" id="contact" href="../PersonalWebsite/contact.html">Contact Me</a>
       </div>
     </div>
     </div>
