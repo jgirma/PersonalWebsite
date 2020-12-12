@@ -35,8 +35,6 @@ var header = `<header class="site-header py-1">
     </nav>
 </header>`
 
-document.getElementById('navibar').innerHTML = header;
-
 var footer = `<div class="container-fluid text-center footnote-div bgd-white">
     <span class="text-muted">
       <a class="footer-link" href="https://www.linkedin.com/in/jonathan-girma/">LinkedIn</a>
@@ -46,4 +44,5 @@ var footer = `<div class="container-fluid text-center footnote-div bgd-white">
     </span>
   </div> `
 
+  document.getElementById('navibar').innerHTML = header;
   document.getElementById('footnote').innerHTML = footer;
