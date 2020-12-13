@@ -26,9 +26,9 @@ var header = `<header class="site-header py-1">
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="navbar-nav">
-        <a class="py-2 d-inline-block mx-5 txt-dark nav-item nav-link" id="about" href="../PersonalWebsite/about.html">About Me</a>
-        <a class="py-2 d-inline-block mx-5 txt-dark nav-item nav-link" id="projects" href="../PersonalWebsite/projects.html">Portfolio</a>
-        <a class="py-2 d-inline-block mx-5 txt-dark nav-item nav-link" id="contact" href="../PersonalWebsite/contact.html">Contact Me</a>
+        <a class="py-2 d-inline-block mx-5 txt-dark nav-item nav-link" id="about" href="../about.html">About Me</a>
+        <a class="py-2 d-inline-block mx-5 txt-dark nav-item nav-link" id="projects" href="../projects.html">Portfolio</a>
+        <a class="py-2 d-inline-block mx-5 txt-dark nav-item nav-link" id="contact" href="../contact.html">Contact Me</a>
       </div>
     </div>
     </div>
@@ -39,7 +39,7 @@ var footer = `<div class="container-fluid text-center footnote-div bgd-white">
     <span class="text-muted">
       <a class="footer-link" href="https://www.linkedin.com/in/jonathan-girma/">LinkedIn</a>
       <a class="footer-link" href="https://www.github.com/jgirma">GitHub</a>
-      <a class="footer-link" href="https://jgirma.github.io/PersonalWebsite/">Website</a>
+      <a class="footer-link" href="https://www.jonathangirma.com">Website</a>
       <p>© 2020 Jonathan Girma.</p>
     </span>
   </div> `
