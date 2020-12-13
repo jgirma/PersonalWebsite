@@ -1,7 +1,7 @@
 var header = `<header class="site-header py-1">
   <nav class="navbar navbar-expand-lg navbar-light container d-flex flex-column flex-md-row justify-content-between">
     <div class="row">
-    <a class="py-2 txt-dark pr-2 mx-5" href="../index.html" aria-label="Product">
+    <a class="py-2 txt-dark pr-2 mx-5" href="https://www.jonathangirma.com" aria-label="Product">
       <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 177.000000 177.000000" preserveAspectRatio="xMidYMid meet">
         <metadata>
           Created by potrace 1.16, written by Peter Selinger 2001-2019
@@ -47,7 +47,6 @@ var footer = `<div class="container-fluid text-center footnote-div bgd-white">
   document.getElementById('navibar').innerHTML = header;
   document.getElementById('footnote').innerHTML = footer;
 
-// WE ARE ABOUT TO PARTY YALLLLLLL
   function setActive(i) {
     $('#'+i).addClass("active");
   }
