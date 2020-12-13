@@ -47,6 +47,7 @@ var footer = `<div class="container-fluid text-center footnote-div bgd-white">
   document.getElementById('navibar').innerHTML = header;
   document.getElementById('footnote').innerHTML = footer;
 
+// WE ARE ABOUT TO PARTY YALLLLLLL
   function setActive(i) {
     $('#'+i).addClass("active");
   }
