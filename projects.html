@@ -173,7 +173,9 @@
   <script src="script.js"></script>
   <!-- Set Active tab -->
   <script type="text/javascript">
-    $('projects').addClass('active')
+    $(document).ready(function() {
+      setActive("projects");
+    });
   </script>
 
 </body>

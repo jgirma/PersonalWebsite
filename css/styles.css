@@ -74,6 +74,10 @@ h1{
   padding: 10% 7%;
   margin: 0 auto;
 }
+.active{
+  text-decoration: line-through;
+  font: bold;
+}
 /**********************COVER PAGE CLASSES***************/
 .text-box{
   margin: 10rem auto;
