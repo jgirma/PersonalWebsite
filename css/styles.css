@@ -41,17 +41,6 @@ h1{
   }
 } */
 
-@keyframes slideIn {
-  0%{
-    margin: 0 auto;
-  }
-  50%{
-    margin: 0 auto 0 2rem;
-  }
-  100%{
-    margin: 0 auto;
-  }
-}
 /**************** COLOR SELECTORS FOR BACKGROUNDS AND FOR TEXT ********/
 .bgd-white{
   background-color: #f4f4f2;
@@ -89,10 +78,6 @@ h1{
 .active{
   text-decoration: line-through;
   font: bold;
-}
-.anim{
-  animation-name: slideIn;
-  animation-duration: 2s;
 }
 /**********************COVER PAGE CLASSES***************/
 .text-box{
