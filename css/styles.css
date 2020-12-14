@@ -75,7 +75,7 @@ h1{
   padding: 10% 7%;
   margin: 0 auto;
 }
-.active{
+a.active{
   text-decoration: line-through;
   font: bold;
 }
